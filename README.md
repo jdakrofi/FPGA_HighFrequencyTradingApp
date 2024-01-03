@@ -6,5 +6,7 @@ CANCEL ORDER: the exchange specifies an order id, and the order should be remove
 EXECUTE TRADE: the exchange specifies an order id, and a quantity to decrease the order by.
 Add order messages are handled by the add_order module and Cancel and Execute messages are handled by the delete_order module.
 
+Below is a schematic of the connections between the modules in this project
+
 <img width="606" alt="Screenshot 2024-01-03 at 13 21 33" src="https://github.com/jdakrofi/FPGA_OrderBook/assets/110293638/8e801061-0518-46c2-83ad-db9fd5d6f493">
-https://web.mit.edu/6.111/volume2/www/f2019/projects/endrias_Project_Final_Report.pdf
+The code in this project is based entirely on the following tutorial (https://web.mit.edu/6.111/volume2/www/f2019/projects/endrias_Project_Final_Report.pdf)
