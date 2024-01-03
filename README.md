@@ -4,5 +4,7 @@ This project assumes that there are only three types of messages that can be rec
 ADD ORDER: the exchange specifies the order id, the price, and quantity of an order. The order book should accept this as a new order and appropriately update the size and best price on the market for that stock.
 CANCEL ORDER: the exchange specifies an order id, and the order should be removed from the market.
 EXECUTE TRADE: the exchange specifies an order id, and a quantity to decrease the order by.
+Add order messages are handled by the add_order module and Cancel and Execute messages are handled by the delete_order module.
+
 <img width="606" alt="Screenshot 2024-01-03 at 13 21 33" src="https://github.com/jdakrofi/FPGA_OrderBook/assets/110293638/8e801061-0518-46c2-83ad-db9fd5d6f493">
 https://web.mit.edu/6.111/volume2/www/f2019/projects/endrias_Project_Final_Report.pdf
